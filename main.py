@@ -29,7 +29,7 @@ from telegram.ext import (
 # ------------------------------------------------------------------------
 BOT_TOKEN = os.getenv("token_al")
 if not BOT_TOKEN:
-    raise ValueError("No token_da found in environment variables!")
+    raise ValueError("No token_al found in environment variables!")
 
 
 # ------------------------------------------------------------------------
